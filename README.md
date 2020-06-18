@@ -1,11 +1,11 @@
-# Inverse-Boosting-Pruning-Trees
+# Inverse-Boosting-Pruning-Trees algorithm for earthquake prediction
 The Inverse boosting pruning trees code should be compiled with scikit-learn 0.18.0  
 (This code will be updated later and be compatible with new version of sklearn)
 
 
 """
 
-@auther: LeiTong, Xiong Pan
+@auther: LeiTong, Panx Xiong
 
 @email: lt228@leicester.ac.uk, 
 
@@ -24,7 +24,7 @@ setp3: copy the files of boost_modify.py and boost_utils.py to scikit-learn-0.18
 
 step4: cd the root folder of sckikt-learn and execute "pip install -e ."
 
-step5: install R packages that H2O depends on
+step5: install R packages that depends on
 
 	pkgs <- c("plotROC", "cvAUC", "pROC", "ROCR" ,"readxl","MLmetrics","mccr")
 	for (pkg in pkgs) {
