@@ -1,2 +1,2 @@
-MCC,Rscore,PRAUC,ROCAUC,Fscore,Specificity,Sensitivity,Accuracy,Precision,TN,TP,FN,FP
-0.6429,0.6429,0.8501,0.8878,0.8214,0.8214,0.8214,0.8214,0.8214,23,23,5,5
+"","MCC","Rscore","PRAUC","ROCAUC","Fscore","Specificity","Sensitivity","Accuracy","Precision","TN","TP","FN","FP"
+"1",NA,NA,0.7171,0.8516,NA,2,NA,NA,NA,NA,NA,NA,NA
