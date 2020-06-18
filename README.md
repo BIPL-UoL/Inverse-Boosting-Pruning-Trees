@@ -46,10 +46,9 @@ Open an IPython shell ::
     >>> IBPT.fit(train_data,train_target,v_Folds=5)
     >>> predicted_results = IBPT.predict(your_testing_data)
 
-Run the code testing example by "python testing.py" to get the prediction results file.
-
 
 Calculating earthquake prediction performance 
 =======
+Run the code testing example by "python testing.py" to get the prediction results file.
 
 Run the code by "Rscript caculate_metrics.R" to get the earthquake prediction metrics and curves.
