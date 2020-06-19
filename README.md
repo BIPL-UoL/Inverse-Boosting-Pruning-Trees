@@ -28,7 +28,7 @@ Step 2: Copy the files _tree_prune.cpython-35m-x86_64-linux-gnu.so and tree_prun
 
  
 
-Step 3: Copy the files boost_modify.py and boost_utils.py to scikit-learn-0.18.X/sklearn/ensemble/, and add 'from . import boost_utils' to ensemble/__init__.py file. 
+Step 3: Copy the files boost_modify.py and boost_utils.py to the folder of scikit-learn-0.18.X/sklearn/ensemble/, and add 'from . import boost_utils' to ensemble/__init__.py file. 
 
  
 
