@@ -14,8 +14,7 @@ The Inverse boosting pruning trees code should be compiled with scikit-learn 0.1
 
  
 
-#Usage 
-
+Usage 
 ======= 
 
  
@@ -52,8 +51,7 @@ for (pkg in pkgs) {
 
  
 
-#Testing 
-
+Testing 
 ======= 
 
  
@@ -82,13 +80,10 @@ Open an IPython shell::
 
  
 
-#Undertaking earthquake prediction performance  
-
+Undertaking earthquake prediction performance  
 ======= 
 
 Run the testing example by "python testing.py" to have the prediction results file. 
-
- 
 
 Run the code by "Rscript caculate_metrics.R" to have the earthquake prediction metrics and curves. 
 
