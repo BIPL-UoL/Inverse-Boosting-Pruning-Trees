@@ -8,7 +8,7 @@ The Inverse boosting pruning trees code should be compiled with scikit-learn 0.1
 
 @authors: Pan Xiong, Lei Tong, Kun Zhang, Xuhui Shen, Roberto Battiston, Dimitar Ouzounov, Roberto Iuppa, Danny Crookes, Cheng Long and Huiyu Zhou
 
-@Email: lt228@leicester.ac.uk, xiong.pan@gmail.com (Software Developer)
+@Email: lt228@leicester.ac.uk, xiong.pan@gmail.com (Software Developers)
 
 """ 
 
