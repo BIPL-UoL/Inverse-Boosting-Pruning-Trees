@@ -14,7 +14,7 @@ The Inverse boosting pruning trees code should be compiled with scikit-learn 0.1
 
  
 
-Usage 
+#Usage 
 
 ======= 
 
@@ -52,7 +52,7 @@ for (pkg in pkgs) {
 
  
 
-Testing 
+#Testing 
 
 ======= 
 
@@ -82,7 +82,7 @@ Open an IPython shell::
 
  
 
-Undertaking earthquake prediction performance  
+#Undertaking earthquake prediction performance  
 
 ======= 
 
