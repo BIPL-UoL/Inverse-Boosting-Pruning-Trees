@@ -39,11 +39,11 @@ Step 5: Install R packages that depends on
 
  
 
-pkgs <- c("plotROC", "cvAUC", "pROC", "ROCR" ,"readxl","MLmetrics","mccr") 
+	pkgs <- c("plotROC", "cvAUC", "pROC", "ROCR" ,"readxl","MLmetrics","mccr") 
 
-for (pkg in pkgs) { 
-  if (! (pkg %in% rownames(installed.packages()))) { install.packages(pkg) } 
-} 
+	for (pkg in pkgs) { 
+  	if (! (pkg %in% rownames(installed.packages()))) { install.packages(pkg) } 
+	} 
 
  
 
