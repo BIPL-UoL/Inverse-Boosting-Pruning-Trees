@@ -5,9 +5,9 @@ The Inverse boosting pruning trees code should be compiled with scikit-learn 0.1
 
 """
 
-@auther: LeiTong, Panx Xiong
+@author: LeiTong, Panx Xiong
 
-@email: lt228@leicester.ac.uk, 
+@Email: lt228@leicester.ac.uk, 
 
 """
 
@@ -18,11 +18,11 @@ Usage
 
 step1: Download the source code of scikit-learn 0.18.0
 
-setp2: copy the files of _tree_prune.cpython-35m-x86_64-linux-gnu.so and tree_prune.py to scikit-learn-0.18.X/sklearn/tree
+setp2: copy the files of _tree_prune.cpython-35m-x86_64-linux-gnu.so and tree_prune.py into scikit-learn-0.18.X/sklearn/tree Fold
 
-setp3: copy the files of boost_modify.py and boost_utils.py to scikit-learn-0.18.X/sklearn/ensemble, then add 'from . import boost_utils' in the ensemble/__init__.py file.
+setp3: copy the files of boost_modify.py and boost_utils.py to scikit-learn-0.18.X/sklearn/ensemble Fold, then add 'from . import boost_utils' in the ensemble/__init__.py file.
 
-step4: cd the root folder of sckikt-learn and execute "pip install -e ."
+step4: cd to the root folder of sckikt-learn-0.18.X and execute "pip install -e ."
 
 step5: install R packages that depends on
 
