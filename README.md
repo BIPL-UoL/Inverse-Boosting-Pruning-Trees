@@ -42,9 +42,7 @@ Step 5: Install R packages that depends on
 pkgs <- c("plotROC", "cvAUC", "pROC", "ROCR" ,"readxl","MLmetrics","mccr") 
 
 for (pkg in pkgs) { 
-
   if (! (pkg %in% rownames(installed.packages()))) { install.packages(pkg) } 
-
 } 
 
  
@@ -61,19 +59,13 @@ Open an IPython shell::
  
 
 	>>> from sklearn.datasets import make_classification 
-
 	>>> from sklearn.tree import tree_prune 
-
 	>>> from sklearn.ensemble import boost_modify 
 
 	>>> X,y = make_classification(n_samples=20)
-
-	>>> IBPT = boost_modify.AdaBoostClassifier(n_estimators=100, 
-
-				       base_estimator=tree_prune.DecisionTreeClassifier(),algorithm='SAMME') 
-
+	>>> IBPT = boost_modify.AdaBoostClassifier(n_estimators=100,
+							base_estimator=tree_prune.DecisionTreeClassifier(),algorithm='SAMME') 
 	>>> IBPT.fit(train_data,train_target,v_Folds=5) 
-
 	>>> predicted_results = IBPT.predict(your_testing_data) 
 
  
