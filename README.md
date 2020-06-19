@@ -75,7 +75,7 @@ Open an IPython shell::
 Undertaking earthquake prediction performance  
 ======= 
 
-Run the testing example by "python testing.py" to have the prediction results file. 
+Run the testing example by "python test.py" to have the prediction results file. 
 
 Run the code by "Rscript caculate_metrics.R" to have the earthquake prediction metrics and curves. 
 
