@@ -39,10 +39,10 @@ Step 4: Copy the following files to the directory scikit-learn-0.18.X/sklearn/tr
   cp ./tree_prune.py to scikit-learn-0.18.X/sklearn/tree/
   ```
 
-Step 5: Copy the following files to the directory scikit-learn-0.18.X/sklearn/ensemble/ and add 'from . import boost\_utils' to ensemble/\_\_init__.py file:
+Step 5: Copy the following files to the directory scikit-learn-0.18.X/sklearn/ensemble/ and add 'from . import boost\_utils' to ensemble/\_\_init\_\_.py file:
   ```
-  cp ./boost\_modify.py to scikit-learn-0.18.X/sklearn/ensemble/
-  cp ./boost\_utils.py to scikit-learn-0.18.X/sklearn/ensemble/
+  cp ./boost_modify.py to scikit-learn-0.18.X/sklearn/ensemble/
+  cp ./boost_utils.py to scikit-learn-0.18.X/sklearn/ensemble/
   ```
  
 Step 6: Change the directory to the root folder of scikit-learn-0.18.X and execute the following command:
