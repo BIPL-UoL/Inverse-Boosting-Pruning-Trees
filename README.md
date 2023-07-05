@@ -1,6 +1,6 @@
 # Inverse-Boosting-Pruning-Trees algorithm for earthquake prediction 
 
-The Inverse boosting pruning trees code should be compiled with scikit-learn 0.18.0   
+The Inverse boosting pruning trees code should be compiled with scikit-learn 0.18.X   
 
 
 """ 
@@ -11,15 +11,21 @@ The Inverse boosting pruning trees code should be compiled with scikit-learn 0.1
 
 """ 
 
- 
+This method is built upon [sklearn_tree_post_prune](https://github.com/shenwanxiang/sklearn-post-prune-tree/tree/master) and scikit-learn 0.18.X.
 
 Usage 
 ======= 
 
  
 
-Step 1: Download the source code of scikit-learn 0.18.0. 
+Step 0: Download the source code of [scikit-learn 0.18.0](https://github.com/scikit-learn/scikit-learn/tree/0.18.X) and uncompress it. 
 
+Step 1: Then:
+  ```
+  cd ./sklearn_tree_post_prune/src/
+  cython _tree_prune.pyx
+  python setup.py build
+  ```
  
 
 Step 2: Copy the files _tree_prune.cpython-35m-x86_64-linux-gnu.so and tree_prune.py to the folder of scikit-learn-0.18.X/sklearn/tree/. 
@@ -77,5 +83,8 @@ Undertaking earthquake prediction performance
 Run the testing example by "python test.py" to have the prediction results file. 
 
 Run the code by "Rscript caculate_metrics.R" to have the earthquake prediction metrics and curves. 
+
+## Acknowledgement
+Many thanks to the authors of [sklearn_tree_post_prune](https://github.com/shenwanxiang/sklearn-post-prune-tree/tree/master). 
 
  
