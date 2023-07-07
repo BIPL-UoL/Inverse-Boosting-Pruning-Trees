@@ -100,4 +100,17 @@ Run the code by "Rscript caculate_metrics.R" to have the earthquake prediction m
 ## Acknowledgement
 Many thanks to the authors of [sklearn_tree_post_prune](https://github.com/shenwanxiang/sklearn-post-prune-tree/tree/master). 
 
+Citation 
+======= 
+If you find CBPT useful in your research, please consider citing:
+	
+	@article{xiong2021towards,
+  	title={Towards advancing the earthquake forecasting by machine learning of satellite data},
+  	author={Xiong, Pan and Tong, Lei and Zhang, Kun and Shen, Xuhui and Battiston, Roberto and Ouzounov, Dimitar and Iuppa, Roberto and Crookes, Danny and Long, Cheng and Zhou, Huiyu},
+  	journal={Science of The Total Environment},
+  	volume={771},
+  	pages={145256},
+  	year={2021},
+  	publisher={Elsevier}
+	}
  
